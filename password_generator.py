@@ -13,7 +13,7 @@ numOfPassword = int(input("How many passwords do you want to generate? "))
 
 # If the user only wants to generate 1 password go into this if statement
 if numOfPassword == 1:
-	passwordUse = raw_input("\nWhat is this password going to be used for? ")
+	passwordUse = input("\nWhat is this password going to be used for? ")
 	lengthOfPassword = int(input("\nWhat do you want the length of your password to be? "))
 	# Loop through numOfPassword and re-assign the password variable each time
 	for num in range(numOfPassword):
